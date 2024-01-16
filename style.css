@@ -120,14 +120,14 @@ header {
 .img-h {
   max-width: 80%;
 }
-.experience {
+.padding {
   padding-top: 90px;
   padding-bottom: 90px;
 }
 
-.experience-container {
+.container {
   display: flex;
-align-items: center;
+  align-items: center;
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
@@ -138,11 +138,12 @@ align-items: center;
 .experience-main {
   width: 100%;
   display: flex;
-  align-items:center;
+  align-items: center;
   justify-content: space-between;
 }
 
-.ex-1 , .ex-2 {
+.ex-1,
+.ex-2 {
   position: relative;
   padding-right: 10px;
   padding-left: 15px;
@@ -153,26 +154,72 @@ align-items: center;
 
 .experience-img img {
   max-width: 100%;
-  
 }
 
-.ex-2 h1{
+.ex-2 h1 {
   font-weight: bold;
   text-transform: uppercase;
   font-size: 2rem;
 }
 .ex-2 p {
   margin-top: 20px;
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
-.ex-1{
+.ex-1 {
   width: 40%;
 }
-.ex-2{
-width: 60%;
+.ex-2 {
+  width: 60%;
 }
-.ex-2 .btn-2{
+.ex-2 .btn-2 {
   background-color: #1a2e35;
   color: white;
+}
+.category {
+  background-color: #1cbbb4;
+  color: #ffffff;
+  text-align: center;
+}
+.head {
+  align-items: center;
+}
+
+.head h2 {
+  border-bottom: 1px solid #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+.options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 25px;
+
+  
+}
+
+.option {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 0;
+  min-width: 130px;
+  flex-basis: 26%;
+}
+.category .container {
+  flex-direction: column;
+}
+.option .img-option {
+  width: 120px;
+  height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.option h5{
+  font-size: 1.25rem;
 }
