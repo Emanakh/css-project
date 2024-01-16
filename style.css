@@ -11,6 +11,17 @@ body {
 a {
   text-decoration: none;
 }
+h2 {
+  font-weight: bold;
+  text-transform: uppercase;
+
+  font-size: 2rem;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
 header {
   background: linear-gradient(to right, #1a2e35 50%, #1cbbb4 50%);
   height: 95vh;
@@ -197,8 +208,6 @@ header {
   flex-wrap: wrap;
   justify-content: space-between;
   margin-top: 25px;
-
-  
 }
 
 .option {
@@ -216,10 +225,45 @@ header {
 .option .img-option {
   width: 120px;
   height: 120px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.option h5{
+.option h5 {
   font-size: 1.25rem;
+}
+
+.text p {
+  margin-top: 15px;
+}
+.text a {
+ 
+    display: inline-block;
+    padding: 10px 45px;
+    background-color: #ff4f5a;
+    color: #ffffff;
+    border-radius: 0;
+    margin-top: 25px;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+}
+.about .container{
+  flex-direction: column;
+}
+.text{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.img-about{
+  width: 80%;
+}
+.about .padding{
+  padding-top: 5px ; 
 }
