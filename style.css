@@ -237,23 +237,22 @@ header {
   margin-top: 15px;
 }
 .text a {
- 
-    display: inline-block;
-    padding: 10px 45px;
-    background-color: #ff4f5a;
-    color: #ffffff;
-    border-radius: 0;
-    margin-top: 25px;
+  display: inline-block;
+  padding: 10px 45px;
+  background-color: #ff4f5a;
+  color: #ffffff;
+  border-radius: 0;
+  margin-top: 25px;
 }
 
 .about {
   display: flex;
   align-items: center;
 }
-.about .container{
+.about .container {
   flex-direction: column;
 }
-.text{
+.text {
   align-items: center;
   justify-content: center;
   display: flex;
@@ -261,9 +260,83 @@ header {
   margin: auto;
 }
 
-.img-about{
+.img-about {
   width: 80%;
 }
-.about .padding{
-  padding-top: 5px ; 
+.about {
+  padding-top: 5px;
+  margin-bottom: 50px;
+}
+
+.free{
+  margin-top: 50px;
+  margin-bottom: 20px;
+
+}
+.display-row {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-left: -15px;
+}
+.freelance-1 {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: 8.333333%;
+}
+
+.free-box {
+  margin: 25px 0;
+  display: flex;
+  align-items: center;
+}
+
+.img-box {
+  width: 90px;
+  height: 90px;
+  min-width: 90px;
+  min-height: 90px;
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+  background-color: #1a2e35;
+  border-radius: 100%;
+  margin-right: 35px;
+}
+.first {
+  background-color: #1cbbb4;
+}
+
+.img-box img {
+  width: auto;
+  height: auto;
+  max-width: 45px;
+  max-height: 45px;
+}
+
+.detail-box h5 {
+  font-weight: bold;
+  color: #ff4f5a;
+
+  font-size: 1.25rem;
+}
+.detail-box h3 {
+  font-weight: bold;
+  color: #252525;
+  font-size: 1.75rem;
+}
+
+.freelance-2 {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.freelance-2 img{
+  width: 100%;
 }
